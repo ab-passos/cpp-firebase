@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 0
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "628365787381-s8j19h5qcevf7cnj1jli7s21qodhddod.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyBACX3A_a-WjEPpBkxdXKf3kkBvJA2U9ho"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:628365787381:ios:67b293f9d267e834", 
+        "android_client_info": {
+          "package_name": "something"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "testing-abp.appspot.com", 
+    "project_id": "testing-abp", 
+    "firebase_url": "https://testing-abp.firebaseio.com", 
+    "project_number": "628365787381"
+  }
+}
