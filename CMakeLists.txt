@@ -34,7 +34,7 @@ set(FIREBASE_SAMPLE_DESKTOP_SRCS
 )
 
 # Sample uses some features that require C++ 11, such as lambdas.
-set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD 14)
 
 # Determine the path to the library based on the platform and configuration.
 if(APPLE)

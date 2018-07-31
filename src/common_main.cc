@@ -22,6 +22,7 @@
 
 // Thin OS abstraction layer.
 #include "main.h"  // NOLINT
+#include "database.hpp"
 
 // An example of a ValueListener object. This specific version will
 // simply log every value it sees, and store them in a list so we can
@@ -142,6 +143,10 @@ void WaitForCompletion(const firebase::FutureBase& future, const char* name) {
 }
 
 extern "C" int common_main(int argc, const char* argv[]) {
+
+ DatabaseConnection dbc("test_app_data");
+ dbc.SignOn();
+
   ::firebase::App* app;
 
 #if defined(__ANDROID__)

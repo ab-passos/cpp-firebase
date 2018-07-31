@@ -31,6 +31,7 @@
 #include <string>
 
 #include "main.h"  // NOLINT
+#include "database.hpp"
 
 // The TO_STRING macro is useful for command line defined strings as the quotes
 // get stripped.
